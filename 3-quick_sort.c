@@ -62,7 +62,7 @@ int divide(int *array, int min, int max, size_t size)
 		if (array[g] <= num)
 		{
 			idx++;
-			if (idx != j)
+			if (idx != g)
 			{
 				tmp = array[idx];
 				array[idx] = array[g];
